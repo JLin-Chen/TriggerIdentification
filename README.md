@@ -66,11 +66,11 @@ https://github.com/CLUEbenchmark/DataCLUE
 
 https://arxiv.org/pdf/2111.08647.pdf
 
-> 1. 现有数据集存在标注缺失文章信息杂乱等情况，能被有效利用于训练的数据量可能不是特别大，使data质量提升能否提高baselinemodel的效果？  
+> 1. data质量提升能否提高baselinemodel的效果？是该默认dataset的标签均为正确标签还是考虑标签可能存在错标情况？  
 > 
 > 2. 能否通过算法或程序或者结合人工的方式来改进数据集？ 是否存在标签错标的情况？ 
 > 
-> 3. 根据train和val中的已标签无缺失数据进行训练，让新的module学会判断标签缺失或出错的数据应当拥有什么样的特征 
+> 3. 有可借鉴性吗？ 
 > 
 
 
