@@ -125,6 +125,7 @@ Ma等人提出传播树内核Propagation Tree Kernel（PTK），将传播特征�
 
 RvNN https://arxiv.org/pdf/2001.10667.pdf
   
+  
 另外， Bian等人也提出了图卷积神经网络，通过自顶向下和自底向上两个方向分别表示谣言的传播特性和扩散特性，然后将两个结果通过全连接层融合在一起得到最终结果。其中，将谣言树的根特征与每一层的隐藏特征进行串联，增强谣言根的影响。
   
   ![image](https://user-images.githubusercontent.com/97073218/159220860-3d7cc5e4-7951-4545-b7e1-b5a61e00f1bd.png)
