@@ -60,3 +60,20 @@ Link of overall result folder: https://pan.baidu.com/s/1P98jqvcE7JVPToOENhCKUQ?p
 
 The implementation details and results are shown below:
 
+Phase1(test1):
+
+Model|Batch Size|Epochs|Seeds|Metrics|Trigger_maF|Verify_maF
+:---:|:---:|:----:|:----:|:----:|:----:|:----:
+Baseline|8|30|0|1.194|0.508|0.686
+BERT+LSTM|16|30|0|**1.261**|**0.523**|**0.738**
+
+Phase2(test2):
+
+Model|Batch Size|Epochs|Seeds|Metrics|Trigger_maF|Verify_maF
+:---:|:---:|:----:|:----:|:----:|:----:|:----:
+BERT+LSTM|4|16|0|1.311|**0.521**|0.790
+BERT+LSTM+Dropout|4|16|0|**1.317**|0.520|**0.796**
+
+## Acknowledgement
+
+Here we would like to thank for BERT implementation of HuggingFace and the baseline model provided by SH-HK. Also, thanks for the dataset release of Shanghai-HK Interdisciplinary Shared Tasks (2022).
