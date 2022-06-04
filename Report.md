@@ -27,16 +27,18 @@ The evaluation will predict the trigger categories of messages on the message le
 
 ### Environment
 ```
-nltk==3.6.5
-numpy==1.21.3
-pandas==1.3.4
-pytorch-lightning==1.5.0
-torchmetrics==0.6.0
-scikit-learn==1.0.1
-tensorboard==2.7.0
-tqdm==4.62.3
-transformers==4.12.3
-wandb==0.12.6
+* Python version is 3.9.0 with gcc of 7.3.0
+* NVIDIA TITAN Xp (12G Memory)
+* nltk==3.6.5
+* numpy==1.21.3
+* pandas==1.3.4
+* pytorch-lightning==1.5.0
+* torchmetrics==0.6.0
+* scikit-learn==1.0.1
+* tensorboard==2.7.0
+* tqdm==4.62.3
+* transformers==4.12.3
+* wandb==0.12.6
 
 (These are included in the requirement.txt)
 ```
