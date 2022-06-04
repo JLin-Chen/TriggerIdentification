@@ -29,6 +29,9 @@ http://fudan-disc.com/sharedtask/social22/task
 ```
 -- main.py                                  ---> start to train
 -- data.py                                  ---> preprocess raw text
+-- config.py                                ---> basic settings of the model
+-- model_pipeline.py                        ---> rough model architecture
+-- model_wrapper.py                         ---> model wrapper
 -- /model_encoder/bert.py                   ---> input preprocessed data to BERT
 -- /model_interact/none.py                  ---> detailed model architecture
 -- /data_trigger                            ---> datasets
