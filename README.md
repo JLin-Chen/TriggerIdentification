@@ -62,7 +62,7 @@
 所采用的基线模型是基于bert-base-uncased进行消息表示，聚焦于如何利用用户转发评论中得到文本特征和某组转发评论的传播结构特征，使用平均池化进行传播树表示的分类模型。
 所采用的评价指标为两个分类任务上宏平均F1值（macro F1），排名依据为两个任务上评价指标的加和。
 
-![basseline_model](/Img/baseline_model.bmp)
+![basseline_model](/Img/baseline1_model.bmp)
 
 ## 4.1.2 我们的改进方法
 
