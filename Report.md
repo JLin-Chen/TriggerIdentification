@@ -88,7 +88,7 @@ Phase1(test1):
 Model|Batch Size|Epochs|Seeds|Metrics|Trigger_maF|Verify_maF
 :---:|:---:|:----:|:----:|:----:|:----:|:----:
 Baseline|8|30|0|1.194|0.508|0.686
-BERT+LSTM|16|30|0|**1.261**|**0.523**|**0.738**
+BERT+LSTM|8|30|0|**1.261**|**0.523**|**0.738**
 
 Phase2(test2):
 
